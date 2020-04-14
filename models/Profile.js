@@ -109,7 +109,7 @@ const profileSchema = new mongoose.Schema({
     }
   },
   date: {
-    type: String,
+    type: Date,
     default: Date.now
   }
 })
